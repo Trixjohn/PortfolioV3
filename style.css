@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    font-family: 'Times New Roman', Times, serif, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     background: linear-gradient(to bottom, #0b0b2b, #1b2735 70%, #090a0f);
     color: #d3d3d3;
     min-height: 100vh;
