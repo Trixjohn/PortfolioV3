@@ -14,7 +14,8 @@ body {
     background: linear-gradient(to bottom, #0b0b2b, #1b2735 70%, #090a0f);
     color: #d3d3d3;
     min-height: 100vh;
-
+    display: flex;
+    flex-direction: column;
 }
 
 .stars-container {
@@ -186,4 +187,11 @@ footer {
     border-color: #00ffcc;
     transform: translateX(3px);
     
+}
+.bading{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex: 1;
+    padding-top: 20rem;
 }
