@@ -195,3 +195,16 @@ footer {
     flex: 1;
     padding-top: 20rem;
 }
+
+.text-box h2{
+    text-align: center;
+    border-radius: 2rem;
+    color: #00ffcc;
+    justify-content: center;
+    transition: ease;
+}
+.text-box h2:hover{
+    color: pink;
+    border-radius: 5rem;
+    
+}
