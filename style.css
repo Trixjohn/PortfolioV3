@@ -207,11 +207,3 @@ footer {
     color: pink;
     border-radius: 5rem;
 }
-.treks{
-    border-radius: 10px;
-    background-color: #ffffff;
-    background: transparent;
-}
-.treks:hover{
-    transform: translateX(20px);
-}
