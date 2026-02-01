@@ -190,8 +190,15 @@ footer {
 }
 
 /* Projects grid styles */
+#projects{
+    
+}
 .projects-section {
     padding: 150px 20px;
+}
+.projects-section,
+.projects-section * {
+    font-family: 'Arial', sans-serif;
 }
 .projects-grid {
     display: grid;
@@ -225,7 +232,7 @@ footer {
     background: transparent;
     color: #00ffcc;
     opacity: 1;
-    transition: all 0.3 ease;
+    transition: all 0.3s ease;
 }
 .project-box .placeholder:hover{
     color: #00ffcc;
