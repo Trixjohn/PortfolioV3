@@ -224,7 +224,15 @@ footer {
     font-size: 3rem;
     color: #00ffcc;
     opacity: 0.85;
+    transition: all 0.3 ease;
 }
+.project-box .placeholder:hover{
+    color: #00ffcc;
+    transform: translateY(3px);
+    opacity: 1;
+    transform: translateY(3px) scale(1.1);
+    box-shadow: 0 10px 30px rgba(0, 255, 204, 0.3);
+}   
 @media (max-width: 480px) {
     .project-box .placeholder { font-size: 2rem; }
 }
