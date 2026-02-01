@@ -185,7 +185,7 @@ footer {
 }
 .social-btn:hover{
     border-color: #00ffcc;
-    transform: translateX(3px);
+    transform: translateX(5px);
     
 }
 
