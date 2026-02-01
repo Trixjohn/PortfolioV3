@@ -222,8 +222,9 @@ footer {
 }
 .project-box .placeholder {
     font-size: 3rem;
+    background: transparent;
     color: #00ffcc;
-    opacity: 0.85;
+    opacity: 1;
     transition: all 0.3 ease;
 }
 .project-box .placeholder:hover{
@@ -237,3 +238,15 @@ footer {
     .project-box .placeholder { font-size: 2rem; }
 }
 
+/*this section is for note lang*/
+
+.notes-below{
+    padding-top: 5rem;
+    font-weight: 100;
+    color: rgb(121, 255, 121);
+}
+.note{
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+}
